@@ -27,7 +27,7 @@ const NavBar = () => {
                             <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className={`nav-item ${location.pathname === "/about" ? "active" : ""}`}>
-                            <Link className="nav-link" to="/about">About Us</Link>
+                            <Link className="nav-link" to="/about">About Me</Link>
                         </li>
                     </ul>
                     {!localStorage.getItem("token")?<form className="form-inline my-2 my-lg-0">
